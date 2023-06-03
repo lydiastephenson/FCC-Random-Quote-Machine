@@ -2,6 +2,8 @@
 
 Objective: Build an app that is functionally similar to this: <https://random-quote-machine.freecodecamp.rocks/>.
 
+Final Project: <https://fcc-random-quote-machine--lydia-stephenson.repl.co/>
+
 Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
 1. I can see a wrapper element with a corresponding id="quote-box".
