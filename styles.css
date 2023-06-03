@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #0B4F6C;
+    color: #0B4F6C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    width: 60%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #FBFBFF;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #202020;
+}
+
+#quote-box > div:first-of-type {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+#quote-box > div:first-of-type > div:first-of-type {
+    width: 80%;
+    height: 100px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+#quote-box > div:first-of-type > span {
+    font-size: 2.5rem;
+}
+
+#quote-box > div:first-of-type > span:first-of-type {
+    align-self: flex-start;
+}
+
+#quote-box > div:first-of-type > span:last-of-type {
+    align-self: flex-end;
+}
+
+#quote-box > div:first-of-type > div:last-of-type {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#author {
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#quote-box > div:last-of-type {
+    margin-top: 1rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tweet-quote {
+    font-size: 2.25rem;
+    color: #0B4F6C;
+}
+
+#new-quote {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0B4F6C;
+    color: #FBFBFF;
+    font-size: 1rem;
+}
+
+#tweet-quote:hover {
+    color: #01BAEF;
+}
+
+#new-quote:hover {
+    background-color: #01BAEF;
+    cursor: pointer;
+}
